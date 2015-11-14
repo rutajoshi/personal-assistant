@@ -1,6 +1,8 @@
 Attendance!
 Attendance List
 Put your name if you came to class!
+<<<<<<< HEAD
 Idan Hovav
 Ruta Joshi
 
+=======

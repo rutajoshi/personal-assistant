@@ -17,10 +17,21 @@ def square(n):
     >>> square(30)
     900
     """
-    return n**n
+    return n*n
 
 def dispatcher(command, arg):
-    """ Does things """
+    """ Does things 
+    >>> dispatcher("weather", "berkeley")
+    Here's the weather forcast for berkeley
+
+    >>> dispatcher("square", 2)
+    The square of 2 is 4
+
+    >>> dispatcher("go away", 3)
+    It sounds like you no longer need my assistance
+    Very well. Goodbye!
+
+    """
     if command == "weather":
         print("Here's the weather forcast for "+arg)
         print(apis.fetch_weather(arg))

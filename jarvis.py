@@ -10,6 +10,12 @@ def square(n):
     4 
     >>> square(3)
     8
+    >>> square(2.0)
+    4.0
+    >>> square(0)
+    0
+    >>> square(30)
+    900
     """
     return n**n
 

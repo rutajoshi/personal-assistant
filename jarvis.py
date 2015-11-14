@@ -7,9 +7,9 @@ def square(n):
     """ Square numbers  
 
     >>> square(2)
-    4 
+    4
     >>> square(3)
-    8
+    9
     >>> square(2.0)
     4.0
     >>> square(0)

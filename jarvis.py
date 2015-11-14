@@ -59,7 +59,7 @@ def prompter():
         num = input("I love math! What number?")
         dispatcher(command, num)
     elif command == "stocks": # TODO
-        pass
+        print(apis.fetch_stocks(2))
     else:
         dispatcher(command, "")
 
